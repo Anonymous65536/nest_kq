@@ -32,6 +32,6 @@ To reproduce the results for the health economics experiment (Figure 2 (Right)),
 `python evppi.py --eps 0.01 --kernel 'rbf'`
 
 ### 4. Bayesian Optimization
-To reproduce the results for the bayesian optimization experiment (Figure 3 (Right)), run:
+To reproduce the results for the bayesian optimization experiment (Figure 3), run:
 
 `python BO.py --utility lookahead_EI_kq --dataset ackley --kernel matern --dim 2 --delta 0.01 --q 2 --iterations 30 --seed 0`
